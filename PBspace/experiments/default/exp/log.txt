@@ -1,0 +1,837 @@
+[2024-02-21 03:15:52] (logger.py 164): Initializing experiment exp
+
+[2024-02-21 03:15:52] (logger.py 164): NMI_interval = 20
+[2024-02-21 03:15:52] (logger.py 164): NMI_target = 0.8
+[2024-02-21 03:15:52] (logger.py 164): bash_command = None
+[2024-02-21 03:15:52] (logger.py 164): batch_size = 128
+[2024-02-21 03:15:52] (logger.py 164): checkpoint_path = None
+[2024-02-21 03:15:52] (logger.py 164): classes_no = 10
+[2024-02-21 03:15:52] (logger.py 164): clusterings = 2
+[2024-02-21 03:15:52] (logger.py 164): clusters = 10
+[2024-02-21 03:15:52] (logger.py 164): complex_arg = None
+[2024-02-21 03:15:52] (logger.py 164): dataset = cifar10
+[2024-02-21 03:15:52] (logger.py 164): dataset_path = ./data_folder/CIFAR10
+[2024-02-21 03:15:52] (logger.py 164): divclust_mbank_size = 10000
+[2024-02-21 03:15:52] (logger.py 164): entity = default
+[2024-02-21 03:15:52] (logger.py 164): epochs = 10
+[2024-02-21 03:15:52] (logger.py 164): eval_interval = 1
+[2024-02-21 03:15:52] (logger.py 164): f = None
+[2024-02-21 03:15:52] (logger.py 164): fff = None
+[2024-02-21 03:15:52] (logger.py 164): gpu = 0
+[2024-02-21 03:15:52] (logger.py 164): gpus = None
+[2024-02-21 03:15:52] (logger.py 164): group = None
+[2024-02-21 03:15:52] (logger.py 164): lr_schedule = cosine
+[2024-02-21 03:15:52] (logger.py 164): mixed_precision = True
+[2024-02-21 03:15:52] (logger.py 164): notes = None
+[2024-02-21 03:15:52] (logger.py 164): num_workers = 4
+[2024-02-21 03:15:52] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-02-21 03:15:52] (logger.py 164): preset = cc_cifar10
+[2024-02-21 03:15:52] (logger.py 164): project_name = default
+[2024-02-21 03:15:52] (logger.py 164): resume = None
+[2024-02-21 03:15:52] (logger.py 164): run_id = None
+[2024-02-21 03:15:52] (logger.py 164): run_name = exp
+[2024-02-21 03:15:52] (logger.py 164): seed = 0
+[2024-02-21 03:15:52] (logger.py 164): tags = None
+[2024-02-21 03:15:52] (logger.py 164): threshold_rate = 0.99
+[2024-02-21 03:15:52] (logger.py 164): wandb_mode = off
+[2024-02-21 03:15:52] (logger.py 164): 
+[2024-02-21 03:15:52] (logger.py 164): Loading data
+[2024-02-21 03:15:52] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-02-21 03:15:58] (logger.py 164): Initializing experiment exp
+
+[2024-02-21 03:15:58] (logger.py 164): NMI_interval = 20
+[2024-02-21 03:15:58] (logger.py 164): NMI_target = 0.8
+[2024-02-21 03:15:58] (logger.py 164): bash_command = None
+[2024-02-21 03:15:58] (logger.py 164): batch_size = 128
+[2024-02-21 03:15:58] (logger.py 164): checkpoint_path = None
+[2024-02-21 03:15:58] (logger.py 164): classes_no = 10
+[2024-02-21 03:15:58] (logger.py 164): clusterings = 2
+[2024-02-21 03:15:58] (logger.py 164): clusters = 10
+[2024-02-21 03:15:58] (logger.py 164): complex_arg = None
+[2024-02-21 03:15:58] (logger.py 164): dataset = cifar10
+[2024-02-21 03:15:58] (logger.py 164): dataset_path = ./data_folder/CIFAR10
+[2024-02-21 03:15:58] (logger.py 164): divclust_mbank_size = 10000
+[2024-02-21 03:15:58] (logger.py 164): entity = default
+[2024-02-21 03:15:58] (logger.py 164): epochs = 10
+[2024-02-21 03:15:58] (logger.py 164): eval_interval = 1
+[2024-02-21 03:15:58] (logger.py 164): f = None
+[2024-02-21 03:15:58] (logger.py 164): fff = None
+[2024-02-21 03:15:58] (logger.py 164): gpu = 0
+[2024-02-21 03:15:58] (logger.py 164): gpus = None
+[2024-02-21 03:15:58] (logger.py 164): group = None
+[2024-02-21 03:15:58] (logger.py 164): lr_schedule = cosine
+[2024-02-21 03:15:58] (logger.py 164): mixed_precision = True
+[2024-02-21 03:15:58] (logger.py 164): notes = None
+[2024-02-21 03:15:58] (logger.py 164): num_workers = 4
+[2024-02-21 03:15:58] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-02-21 03:15:58] (logger.py 164): preset = cc_cifar10
+[2024-02-21 03:15:58] (logger.py 164): project_name = default
+[2024-02-21 03:15:58] (logger.py 164): resume = None
+[2024-02-21 03:15:58] (logger.py 164): run_id = None
+[2024-02-21 03:15:58] (logger.py 164): run_name = exp
+[2024-02-21 03:15:58] (logger.py 164): seed = 0
+[2024-02-21 03:15:58] (logger.py 164): tags = None
+[2024-02-21 03:15:58] (logger.py 164): threshold_rate = 0.99
+[2024-02-21 03:15:58] (logger.py 164): wandb_mode = off
+[2024-02-21 03:15:58] (logger.py 164): 
+[2024-02-21 03:15:59] (logger.py 164): Loading data
+[2024-02-21 03:15:59] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-02-21 03:16:09] (logger.py 164): Initializing experiment exp
+
+[2024-02-21 03:16:09] (logger.py 164): NMI_interval = 20
+[2024-02-21 03:16:09] (logger.py 164): NMI_target = 0.8
+[2024-02-21 03:16:09] (logger.py 164): bash_command = None
+[2024-02-21 03:16:09] (logger.py 164): batch_size = 128
+[2024-02-21 03:16:09] (logger.py 164): checkpoint_path = None
+[2024-02-21 03:16:09] (logger.py 164): classes_no = 10
+[2024-02-21 03:16:09] (logger.py 164): clusterings = 2
+[2024-02-21 03:16:09] (logger.py 164): clusters = 10
+[2024-02-21 03:16:09] (logger.py 164): complex_arg = None
+[2024-02-21 03:16:09] (logger.py 164): dataset = cifar10
+[2024-02-21 03:16:09] (logger.py 164): dataset_path = ./data_folder/CIFAR10
+[2024-02-21 03:16:09] (logger.py 164): divclust_mbank_size = 10000
+[2024-02-21 03:16:09] (logger.py 164): entity = default
+[2024-02-21 03:16:09] (logger.py 164): epochs = 10
+[2024-02-21 03:16:09] (logger.py 164): eval_interval = 1
+[2024-02-21 03:16:09] (logger.py 164): f = None
+[2024-02-21 03:16:09] (logger.py 164): fff = None
+[2024-02-21 03:16:09] (logger.py 164): gpu = 0
+[2024-02-21 03:16:09] (logger.py 164): gpus = None
+[2024-02-21 03:16:09] (logger.py 164): group = None
+[2024-02-21 03:16:09] (logger.py 164): lr_schedule = cosine
+[2024-02-21 03:16:09] (logger.py 164): mixed_precision = True
+[2024-02-21 03:16:09] (logger.py 164): notes = None
+[2024-02-21 03:16:09] (logger.py 164): num_workers = 4
+[2024-02-21 03:16:09] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-02-21 03:16:09] (logger.py 164): preset = cc_cifar10
+[2024-02-21 03:16:09] (logger.py 164): project_name = default
+[2024-02-21 03:16:09] (logger.py 164): resume = None
+[2024-02-21 03:16:09] (logger.py 164): run_id = None
+[2024-02-21 03:16:09] (logger.py 164): run_name = exp
+[2024-02-21 03:16:09] (logger.py 164): seed = 0
+[2024-02-21 03:16:09] (logger.py 164): tags = None
+[2024-02-21 03:16:09] (logger.py 164): threshold_rate = 0.99
+[2024-02-21 03:16:09] (logger.py 164): wandb_mode = off
+[2024-02-21 03:16:09] (logger.py 164): 
+[2024-02-21 03:16:09] (logger.py 164): Loading data
+[2024-02-21 03:16:09] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-02-21 13:27:01] (logger.py 164): Initializing experiment exp
+
+[2024-02-21 13:27:01] (logger.py 164): NMI_interval = 20
+[2024-02-21 13:27:01] (logger.py 164): NMI_target = 1.0
+[2024-02-21 13:27:01] (logger.py 164): bash_command = None
+[2024-02-21 13:27:01] (logger.py 164): batch_size = 128
+[2024-02-21 13:27:01] (logger.py 164): checkpoint_path = None
+[2024-02-21 13:27:01] (logger.py 164): classes_no = 10
+[2024-02-21 13:27:01] (logger.py 164): clusterings = 20
+[2024-02-21 13:27:01] (logger.py 164): clusters = 10
+[2024-02-21 13:27:01] (logger.py 164): complex_arg = None
+[2024-02-21 13:27:01] (logger.py 164): dataset = cifar10
+[2024-02-21 13:27:01] (logger.py 164): dataset_path = ./data_folder/CIFAR10
+[2024-02-21 13:27:01] (logger.py 164): divclust_mbank_size = 10000
+[2024-02-21 13:27:01] (logger.py 164): entity = default
+[2024-02-21 13:27:01] (logger.py 164): epochs = 10
+[2024-02-21 13:27:01] (logger.py 164): eval_interval = 1
+[2024-02-21 13:27:01] (logger.py 164): f = None
+[2024-02-21 13:27:01] (logger.py 164): fff = None
+[2024-02-21 13:27:01] (logger.py 164): gpu = 0
+[2024-02-21 13:27:01] (logger.py 164): gpus = None
+[2024-02-21 13:27:01] (logger.py 164): group = None
+[2024-02-21 13:27:01] (logger.py 164): lr_schedule = cosine
+[2024-02-21 13:27:01] (logger.py 164): mixed_precision = True
+[2024-02-21 13:27:01] (logger.py 164): notes = None
+[2024-02-21 13:27:01] (logger.py 164): num_workers = 4
+[2024-02-21 13:27:01] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-02-21 13:27:01] (logger.py 164): preset = None
+[2024-02-21 13:27:01] (logger.py 164): project_name = default
+[2024-02-21 13:27:01] (logger.py 164): resume = None
+[2024-02-21 13:27:01] (logger.py 164): run_id = None
+[2024-02-21 13:27:01] (logger.py 164): run_name = exp
+[2024-02-21 13:27:01] (logger.py 164): seed = 0
+[2024-02-21 13:27:01] (logger.py 164): tags = None
+[2024-02-21 13:27:01] (logger.py 164): threshold_rate = 0.99
+[2024-02-21 13:27:01] (logger.py 164): wandb_mode = off
+[2024-02-21 13:27:01] (logger.py 164): 
+[2024-02-21 13:27:01] (logger.py 164): Loading data
+[2024-02-21 13:27:01] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-02-26 12:14:52] (logger.py 164): Initializing experiment exp
+
+[2024-02-26 12:14:52] (logger.py 164): NMI_interval = 20
+[2024-02-26 12:14:52] (logger.py 164): NMI_target = 1.0
+[2024-02-26 12:14:52] (logger.py 164): bash_command = None
+[2024-02-26 12:14:52] (logger.py 164): batch_size = 128
+[2024-02-26 12:14:52] (logger.py 164): checkpoint_path = None
+[2024-02-26 12:14:52] (logger.py 164): classes_no = 10
+[2024-02-26 12:14:52] (logger.py 164): clusterings = 20
+[2024-02-26 12:14:52] (logger.py 164): clusters = 10
+[2024-02-26 12:14:52] (logger.py 164): complex_arg = None
+[2024-02-26 12:14:52] (logger.py 164): dataset = cifar10
+[2024-02-26 12:14:52] (logger.py 164): dataset_path = ./data_folder/CIFAR10
+[2024-02-26 12:14:52] (logger.py 164): divclust_mbank_size = 10000
+[2024-02-26 12:14:52] (logger.py 164): entity = default
+[2024-02-26 12:14:52] (logger.py 164): epochs = 10
+[2024-02-26 12:14:52] (logger.py 164): eval_interval = 1
+[2024-02-26 12:14:52] (logger.py 164): f = None
+[2024-02-26 12:14:52] (logger.py 164): fff = None
+[2024-02-26 12:14:52] (logger.py 164): gpu = 0
+[2024-02-26 12:14:52] (logger.py 164): gpus = None
+[2024-02-26 12:14:52] (logger.py 164): group = None
+[2024-02-26 12:14:52] (logger.py 164): lr_schedule = cosine
+[2024-02-26 12:14:52] (logger.py 164): mixed_precision = True
+[2024-02-26 12:14:52] (logger.py 164): notes = None
+[2024-02-26 12:14:52] (logger.py 164): num_workers = 4
+[2024-02-26 12:14:52] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-02-26 12:14:52] (logger.py 164): preset = None
+[2024-02-26 12:14:52] (logger.py 164): project_name = default
+[2024-02-26 12:14:52] (logger.py 164): resume = None
+[2024-02-26 12:14:52] (logger.py 164): run_id = None
+[2024-02-26 12:14:52] (logger.py 164): run_name = exp
+[2024-02-26 12:14:52] (logger.py 164): seed = 0
+[2024-02-26 12:14:52] (logger.py 164): tags = None
+[2024-02-26 12:14:52] (logger.py 164): threshold_rate = 0.99
+[2024-02-26 12:14:52] (logger.py 164): wandb_mode = off
+[2024-02-26 12:14:52] (logger.py 164): 
+[2024-02-26 12:14:52] (logger.py 164): Loading data
+[2024-02-26 12:14:52] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:36:40] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:36:40] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:36:40] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:36:40] (logger.py 164): bash_command = None
+[2024-03-04 22:36:40] (logger.py 164): batch_size = 128
+[2024-03-04 22:36:40] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:36:40] (logger.py 164): classes_no = 3
+[2024-03-04 22:36:40] (logger.py 164): clusterings = 3
+[2024-03-04 22:36:40] (logger.py 164): clusters = 3
+[2024-03-04 22:36:40] (logger.py 164): complex_arg = None
+[2024-03-04 22:36:40] (logger.py 164): dataset = cifar10
+[2024-03-04 22:36:40] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:36:40] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:36:40] (logger.py 164): entity = default
+[2024-03-04 22:36:40] (logger.py 164): epochs = 10
+[2024-03-04 22:36:40] (logger.py 164): eval_interval = 1
+[2024-03-04 22:36:40] (logger.py 164): f = None
+[2024-03-04 22:36:40] (logger.py 164): fff = None
+[2024-03-04 22:36:40] (logger.py 164): gpu = 0
+[2024-03-04 22:36:40] (logger.py 164): gpus = None
+[2024-03-04 22:36:40] (logger.py 164): group = None
+[2024-03-04 22:36:40] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:36:40] (logger.py 164): mixed_precision = True
+[2024-03-04 22:36:40] (logger.py 164): notes = None
+[2024-03-04 22:36:40] (logger.py 164): num_workers = 4
+[2024-03-04 22:36:40] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:36:40] (logger.py 164): preset = None
+[2024-03-04 22:36:40] (logger.py 164): project_name = default
+[2024-03-04 22:36:40] (logger.py 164): resume = None
+[2024-03-04 22:36:40] (logger.py 164): run_id = None
+[2024-03-04 22:36:40] (logger.py 164): run_name = exp
+[2024-03-04 22:36:40] (logger.py 164): seed = 0
+[2024-03-04 22:36:40] (logger.py 164): tags = None
+[2024-03-04 22:36:40] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:36:40] (logger.py 164): wandb_mode = off
+[2024-03-04 22:36:40] (logger.py 164): 
+[2024-03-04 22:36:40] (logger.py 164): Loading data
+[2024-03-04 22:36:40] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:36:51] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:36:51] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:36:51] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:36:51] (logger.py 164): bash_command = None
+[2024-03-04 22:36:51] (logger.py 164): batch_size = 128
+[2024-03-04 22:36:51] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:36:51] (logger.py 164): classes_no = 3
+[2024-03-04 22:36:51] (logger.py 164): clusterings = 3
+[2024-03-04 22:36:51] (logger.py 164): clusters = 3
+[2024-03-04 22:36:51] (logger.py 164): complex_arg = None
+[2024-03-04 22:36:51] (logger.py 164): dataset = cifar10
+[2024-03-04 22:36:51] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:36:51] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:36:51] (logger.py 164): entity = default
+[2024-03-04 22:36:51] (logger.py 164): epochs = 10
+[2024-03-04 22:36:51] (logger.py 164): eval_interval = 1
+[2024-03-04 22:36:51] (logger.py 164): f = None
+[2024-03-04 22:36:51] (logger.py 164): fff = None
+[2024-03-04 22:36:51] (logger.py 164): gpu = 0
+[2024-03-04 22:36:51] (logger.py 164): gpus = None
+[2024-03-04 22:36:51] (logger.py 164): group = None
+[2024-03-04 22:36:51] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:36:51] (logger.py 164): mixed_precision = True
+[2024-03-04 22:36:51] (logger.py 164): notes = None
+[2024-03-04 22:36:51] (logger.py 164): num_workers = 4
+[2024-03-04 22:36:51] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:36:51] (logger.py 164): preset = None
+[2024-03-04 22:36:51] (logger.py 164): project_name = default
+[2024-03-04 22:36:51] (logger.py 164): resume = None
+[2024-03-04 22:36:51] (logger.py 164): run_id = None
+[2024-03-04 22:36:51] (logger.py 164): run_name = exp
+[2024-03-04 22:36:51] (logger.py 164): seed = 0
+[2024-03-04 22:36:51] (logger.py 164): tags = None
+[2024-03-04 22:36:51] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:36:51] (logger.py 164): wandb_mode = off
+[2024-03-04 22:36:51] (logger.py 164): 
+[2024-03-04 22:36:51] (logger.py 164): Loading data
+[2024-03-04 22:36:51] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:37:00] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:37:00] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:37:00] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:37:00] (logger.py 164): bash_command = None
+[2024-03-04 22:37:00] (logger.py 164): batch_size = 128
+[2024-03-04 22:37:00] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:37:00] (logger.py 164): classes_no = 3
+[2024-03-04 22:37:00] (logger.py 164): clusterings = 3
+[2024-03-04 22:37:00] (logger.py 164): clusters = 3
+[2024-03-04 22:37:00] (logger.py 164): complex_arg = None
+[2024-03-04 22:37:00] (logger.py 164): dataset = cifar10
+[2024-03-04 22:37:00] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:37:00] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:37:00] (logger.py 164): entity = default
+[2024-03-04 22:37:00] (logger.py 164): epochs = 10
+[2024-03-04 22:37:00] (logger.py 164): eval_interval = 1
+[2024-03-04 22:37:00] (logger.py 164): f = None
+[2024-03-04 22:37:00] (logger.py 164): fff = None
+[2024-03-04 22:37:00] (logger.py 164): gpu = 0
+[2024-03-04 22:37:00] (logger.py 164): gpus = None
+[2024-03-04 22:37:00] (logger.py 164): group = None
+[2024-03-04 22:37:00] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:37:00] (logger.py 164): mixed_precision = True
+[2024-03-04 22:37:00] (logger.py 164): notes = None
+[2024-03-04 22:37:00] (logger.py 164): num_workers = 4
+[2024-03-04 22:37:00] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:37:00] (logger.py 164): preset = cc
+[2024-03-04 22:37:00] (logger.py 164): project_name = default
+[2024-03-04 22:37:00] (logger.py 164): resume = None
+[2024-03-04 22:37:00] (logger.py 164): run_id = None
+[2024-03-04 22:37:00] (logger.py 164): run_name = exp
+[2024-03-04 22:37:00] (logger.py 164): seed = 0
+[2024-03-04 22:37:00] (logger.py 164): tags = None
+[2024-03-04 22:37:00] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:37:00] (logger.py 164): wandb_mode = off
+[2024-03-04 22:37:00] (logger.py 164): 
+[2024-03-04 22:37:00] (logger.py 164): Loading data
+[2024-03-04 22:37:00] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:41:32] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:41:32] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:41:32] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:41:32] (logger.py 164): bash_command = None
+[2024-03-04 22:41:32] (logger.py 164): batch_size = 128
+[2024-03-04 22:41:32] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:41:32] (logger.py 164): classes_no = 3
+[2024-03-04 22:41:32] (logger.py 164): clusterings = 3
+[2024-03-04 22:41:32] (logger.py 164): clusters = 3
+[2024-03-04 22:41:32] (logger.py 164): complex_arg = None
+[2024-03-04 22:41:32] (logger.py 164): dataset = cifar10
+[2024-03-04 22:41:32] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:41:32] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:41:32] (logger.py 164): entity = default
+[2024-03-04 22:41:32] (logger.py 164): epochs = 10
+[2024-03-04 22:41:32] (logger.py 164): eval_interval = 1
+[2024-03-04 22:41:32] (logger.py 164): f = None
+[2024-03-04 22:41:32] (logger.py 164): fff = None
+[2024-03-04 22:41:32] (logger.py 164): gpu = 0
+[2024-03-04 22:41:32] (logger.py 164): gpus = None
+[2024-03-04 22:41:32] (logger.py 164): group = None
+[2024-03-04 22:41:32] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:41:32] (logger.py 164): mixed_precision = True
+[2024-03-04 22:41:32] (logger.py 164): notes = None
+[2024-03-04 22:41:32] (logger.py 164): num_workers = 4
+[2024-03-04 22:41:32] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:41:32] (logger.py 164): preset = cc
+[2024-03-04 22:41:32] (logger.py 164): project_name = default
+[2024-03-04 22:41:32] (logger.py 164): resume = None
+[2024-03-04 22:41:32] (logger.py 164): run_id = None
+[2024-03-04 22:41:32] (logger.py 164): run_name = exp
+[2024-03-04 22:41:32] (logger.py 164): seed = 0
+[2024-03-04 22:41:32] (logger.py 164): tags = None
+[2024-03-04 22:41:32] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:41:32] (logger.py 164): wandb_mode = off
+[2024-03-04 22:41:32] (logger.py 164): 
+[2024-03-04 22:41:32] (logger.py 164): Loading data
+[2024-03-04 22:41:32] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:41:49] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:41:49] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:41:49] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:41:49] (logger.py 164): bash_command = None
+[2024-03-04 22:41:49] (logger.py 164): batch_size = 128
+[2024-03-04 22:41:49] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:41:49] (logger.py 164): classes_no = 3
+[2024-03-04 22:41:49] (logger.py 164): clusterings = 3
+[2024-03-04 22:41:49] (logger.py 164): clusters = 3
+[2024-03-04 22:41:49] (logger.py 164): complex_arg = None
+[2024-03-04 22:41:49] (logger.py 164): dataset = cifar10
+[2024-03-04 22:41:49] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:41:49] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:41:49] (logger.py 164): entity = default
+[2024-03-04 22:41:49] (logger.py 164): epochs = 10
+[2024-03-04 22:41:49] (logger.py 164): eval_interval = 1
+[2024-03-04 22:41:49] (logger.py 164): f = None
+[2024-03-04 22:41:49] (logger.py 164): fff = None
+[2024-03-04 22:41:49] (logger.py 164): gpu = 0
+[2024-03-04 22:41:49] (logger.py 164): gpus = None
+[2024-03-04 22:41:49] (logger.py 164): group = None
+[2024-03-04 22:41:49] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:41:49] (logger.py 164): mixed_precision = True
+[2024-03-04 22:41:49] (logger.py 164): notes = None
+[2024-03-04 22:41:49] (logger.py 164): num_workers = 4
+[2024-03-04 22:41:49] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:41:49] (logger.py 164): preset = None
+[2024-03-04 22:41:49] (logger.py 164): project_name = default
+[2024-03-04 22:41:49] (logger.py 164): resume = None
+[2024-03-04 22:41:49] (logger.py 164): run_id = None
+[2024-03-04 22:41:49] (logger.py 164): run_name = exp
+[2024-03-04 22:41:49] (logger.py 164): seed = 0
+[2024-03-04 22:41:49] (logger.py 164): tags = None
+[2024-03-04 22:41:49] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:41:49] (logger.py 164): wandb_mode = off
+[2024-03-04 22:41:49] (logger.py 164): 
+[2024-03-04 22:41:49] (logger.py 164): Loading data
+[2024-03-04 22:41:49] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:43:08] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:43:08] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:43:08] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:43:08] (logger.py 164): bash_command = None
+[2024-03-04 22:43:08] (logger.py 164): batch_size = 128
+[2024-03-04 22:43:08] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:43:08] (logger.py 164): classes_no = 3
+[2024-03-04 22:43:08] (logger.py 164): clusterings = 3
+[2024-03-04 22:43:08] (logger.py 164): clusters = 3
+[2024-03-04 22:43:08] (logger.py 164): complex_arg = None
+[2024-03-04 22:43:08] (logger.py 164): dataset = cifar10
+[2024-03-04 22:43:08] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:43:08] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:43:08] (logger.py 164): entity = default
+[2024-03-04 22:43:08] (logger.py 164): epochs = 10
+[2024-03-04 22:43:08] (logger.py 164): eval_interval = 1
+[2024-03-04 22:43:08] (logger.py 164): f = None
+[2024-03-04 22:43:08] (logger.py 164): fff = None
+[2024-03-04 22:43:08] (logger.py 164): gpu = 0
+[2024-03-04 22:43:08] (logger.py 164): gpus = None
+[2024-03-04 22:43:08] (logger.py 164): group = None
+[2024-03-04 22:43:08] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:43:08] (logger.py 164): mixed_precision = True
+[2024-03-04 22:43:08] (logger.py 164): notes = None
+[2024-03-04 22:43:08] (logger.py 164): num_workers = 4
+[2024-03-04 22:43:08] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:43:08] (logger.py 164): preset = cc_ucsd
+[2024-03-04 22:43:08] (logger.py 164): project_name = default
+[2024-03-04 22:43:08] (logger.py 164): resume = None
+[2024-03-04 22:43:08] (logger.py 164): run_id = None
+[2024-03-04 22:43:08] (logger.py 164): run_name = exp
+[2024-03-04 22:43:08] (logger.py 164): seed = 0
+[2024-03-04 22:43:08] (logger.py 164): tags = None
+[2024-03-04 22:43:08] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:43:08] (logger.py 164): wandb_mode = off
+[2024-03-04 22:43:08] (logger.py 164): 
+[2024-03-04 22:43:08] (logger.py 164): Loading data
+[2024-03-04 22:43:08] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:51:22] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:51:22] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:51:22] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:51:22] (logger.py 164): bash_command = None
+[2024-03-04 22:51:22] (logger.py 164): batch_size = 128
+[2024-03-04 22:51:22] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:51:22] (logger.py 164): classes_no = 3
+[2024-03-04 22:51:22] (logger.py 164): clusterings = 3
+[2024-03-04 22:51:22] (logger.py 164): clusters = 3
+[2024-03-04 22:51:22] (logger.py 164): complex_arg = None
+[2024-03-04 22:51:22] (logger.py 164): dataset = cifar10
+[2024-03-04 22:51:22] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:51:22] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:51:22] (logger.py 164): entity = default
+[2024-03-04 22:51:22] (logger.py 164): epochs = 10
+[2024-03-04 22:51:22] (logger.py 164): eval_interval = 1
+[2024-03-04 22:51:22] (logger.py 164): f = None
+[2024-03-04 22:51:22] (logger.py 164): fff = None
+[2024-03-04 22:51:22] (logger.py 164): gpu = 0
+[2024-03-04 22:51:22] (logger.py 164): gpus = None
+[2024-03-04 22:51:22] (logger.py 164): group = None
+[2024-03-04 22:51:22] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:51:22] (logger.py 164): mixed_precision = True
+[2024-03-04 22:51:22] (logger.py 164): notes = None
+[2024-03-04 22:51:22] (logger.py 164): num_workers = 4
+[2024-03-04 22:51:22] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:51:22] (logger.py 164): preset = None
+[2024-03-04 22:51:22] (logger.py 164): project_name = default
+[2024-03-04 22:51:22] (logger.py 164): resume = None
+[2024-03-04 22:51:22] (logger.py 164): run_id = None
+[2024-03-04 22:51:22] (logger.py 164): run_name = exp
+[2024-03-04 22:51:22] (logger.py 164): seed = 0
+[2024-03-04 22:51:22] (logger.py 164): tags = None
+[2024-03-04 22:51:22] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:51:22] (logger.py 164): wandb_mode = off
+[2024-03-04 22:51:22] (logger.py 164): 
+[2024-03-04 22:51:22] (logger.py 164): Loading data
+[2024-03-04 22:51:22] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:51:37] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:51:37] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:51:37] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:51:37] (logger.py 164): bash_command = None
+[2024-03-04 22:51:37] (logger.py 164): batch_size = 128
+[2024-03-04 22:51:37] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:51:37] (logger.py 164): classes_no = 3
+[2024-03-04 22:51:37] (logger.py 164): clusterings = 3
+[2024-03-04 22:51:37] (logger.py 164): clusters = 3
+[2024-03-04 22:51:37] (logger.py 164): complex_arg = None
+[2024-03-04 22:51:37] (logger.py 164): dataset = cifar10
+[2024-03-04 22:51:37] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:51:37] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:51:37] (logger.py 164): entity = default
+[2024-03-04 22:51:37] (logger.py 164): epochs = 10
+[2024-03-04 22:51:37] (logger.py 164): eval_interval = 1
+[2024-03-04 22:51:37] (logger.py 164): f = None
+[2024-03-04 22:51:37] (logger.py 164): fff = None
+[2024-03-04 22:51:37] (logger.py 164): gpu = 0
+[2024-03-04 22:51:37] (logger.py 164): gpus = None
+[2024-03-04 22:51:37] (logger.py 164): group = None
+[2024-03-04 22:51:37] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:51:37] (logger.py 164): mixed_precision = True
+[2024-03-04 22:51:37] (logger.py 164): notes = None
+[2024-03-04 22:51:37] (logger.py 164): num_workers = 4
+[2024-03-04 22:51:37] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:51:37] (logger.py 164): preset = None
+[2024-03-04 22:51:37] (logger.py 164): project_name = default
+[2024-03-04 22:51:37] (logger.py 164): resume = None
+[2024-03-04 22:51:37] (logger.py 164): run_id = None
+[2024-03-04 22:51:37] (logger.py 164): run_name = exp
+[2024-03-04 22:51:37] (logger.py 164): seed = 0
+[2024-03-04 22:51:37] (logger.py 164): tags = None
+[2024-03-04 22:51:37] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:51:37] (logger.py 164): wandb_mode = off
+[2024-03-04 22:51:37] (logger.py 164): 
+[2024-03-04 22:51:37] (logger.py 164): Loading data
+[2024-03-04 22:51:37] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:57:21] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:57:21] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:57:21] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:57:21] (logger.py 164): bash_command = None
+[2024-03-04 22:57:21] (logger.py 164): batch_size = 128
+[2024-03-04 22:57:21] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:57:21] (logger.py 164): classes_no = 3
+[2024-03-04 22:57:21] (logger.py 164): clusterings = 3
+[2024-03-04 22:57:21] (logger.py 164): clusters = 3
+[2024-03-04 22:57:21] (logger.py 164): complex_arg = None
+[2024-03-04 22:57:21] (logger.py 164): dataset = cifar10
+[2024-03-04 22:57:21] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:57:21] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:57:21] (logger.py 164): entity = default
+[2024-03-04 22:57:21] (logger.py 164): epochs = 10
+[2024-03-04 22:57:21] (logger.py 164): eval_interval = 1
+[2024-03-04 22:57:21] (logger.py 164): f = None
+[2024-03-04 22:57:21] (logger.py 164): fff = None
+[2024-03-04 22:57:21] (logger.py 164): gpu = 0
+[2024-03-04 22:57:21] (logger.py 164): gpus = None
+[2024-03-04 22:57:21] (logger.py 164): group = None
+[2024-03-04 22:57:21] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:57:21] (logger.py 164): mixed_precision = True
+[2024-03-04 22:57:21] (logger.py 164): notes = None
+[2024-03-04 22:57:21] (logger.py 164): num_workers = 4
+[2024-03-04 22:57:21] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:57:21] (logger.py 164): preset = imagenet_10
+[2024-03-04 22:57:21] (logger.py 164): project_name = default
+[2024-03-04 22:57:21] (logger.py 164): resume = None
+[2024-03-04 22:57:21] (logger.py 164): run_id = None
+[2024-03-04 22:57:21] (logger.py 164): run_name = exp
+[2024-03-04 22:57:21] (logger.py 164): seed = 0
+[2024-03-04 22:57:21] (logger.py 164): tags = None
+[2024-03-04 22:57:21] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:57:21] (logger.py 164): wandb_mode = off
+[2024-03-04 22:57:21] (logger.py 164): 
+[2024-03-04 22:57:22] (logger.py 164): Loading data
+[2024-03-04 22:57:22] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:57:31] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:57:31] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:57:31] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:57:31] (logger.py 164): bash_command = None
+[2024-03-04 22:57:31] (logger.py 164): batch_size = 128
+[2024-03-04 22:57:31] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:57:31] (logger.py 164): classes_no = 3
+[2024-03-04 22:57:31] (logger.py 164): clusterings = 3
+[2024-03-04 22:57:31] (logger.py 164): clusters = 3
+[2024-03-04 22:57:31] (logger.py 164): complex_arg = None
+[2024-03-04 22:57:31] (logger.py 164): dataset = cifar10
+[2024-03-04 22:57:31] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:57:31] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:57:31] (logger.py 164): entity = default
+[2024-03-04 22:57:31] (logger.py 164): epochs = 10
+[2024-03-04 22:57:31] (logger.py 164): eval_interval = 1
+[2024-03-04 22:57:31] (logger.py 164): f = None
+[2024-03-04 22:57:31] (logger.py 164): fff = None
+[2024-03-04 22:57:31] (logger.py 164): gpu = 0
+[2024-03-04 22:57:31] (logger.py 164): gpus = None
+[2024-03-04 22:57:31] (logger.py 164): group = None
+[2024-03-04 22:57:31] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:57:31] (logger.py 164): mixed_precision = True
+[2024-03-04 22:57:31] (logger.py 164): notes = None
+[2024-03-04 22:57:31] (logger.py 164): num_workers = 4
+[2024-03-04 22:57:31] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:57:31] (logger.py 164): preset = imagenet_10
+[2024-03-04 22:57:31] (logger.py 164): project_name = default
+[2024-03-04 22:57:31] (logger.py 164): resume = None
+[2024-03-04 22:57:31] (logger.py 164): run_id = None
+[2024-03-04 22:57:31] (logger.py 164): run_name = exp
+[2024-03-04 22:57:31] (logger.py 164): seed = 0
+[2024-03-04 22:57:31] (logger.py 164): tags = None
+[2024-03-04 22:57:31] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:57:31] (logger.py 164): wandb_mode = off
+[2024-03-04 22:57:31] (logger.py 164): 
+[2024-03-04 22:57:31] (logger.py 164): Loading data
+[2024-03-04 22:57:31] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-03-04 22:57:40] (logger.py 164): Initializing experiment exp
+
+[2024-03-04 22:57:40] (logger.py 164): NMI_interval = 20
+[2024-03-04 22:57:40] (logger.py 164): NMI_target = 0.8
+[2024-03-04 22:57:40] (logger.py 164): bash_command = None
+[2024-03-04 22:57:40] (logger.py 164): batch_size = 128
+[2024-03-04 22:57:40] (logger.py 164): checkpoint_path = None
+[2024-03-04 22:57:40] (logger.py 164): classes_no = 3
+[2024-03-04 22:57:40] (logger.py 164): clusterings = 3
+[2024-03-04 22:57:40] (logger.py 164): clusters = 3
+[2024-03-04 22:57:40] (logger.py 164): complex_arg = None
+[2024-03-04 22:57:40] (logger.py 164): dataset = cifar10
+[2024-03-04 22:57:40] (logger.py 164): dataset_path = /home/sdx/DCCS-master/data/
+[2024-03-04 22:57:40] (logger.py 164): divclust_mbank_size = 10000
+[2024-03-04 22:57:40] (logger.py 164): entity = default
+[2024-03-04 22:57:40] (logger.py 164): epochs = 10
+[2024-03-04 22:57:40] (logger.py 164): eval_interval = 1
+[2024-03-04 22:57:40] (logger.py 164): f = None
+[2024-03-04 22:57:40] (logger.py 164): fff = None
+[2024-03-04 22:57:40] (logger.py 164): gpu = 0
+[2024-03-04 22:57:40] (logger.py 164): gpus = None
+[2024-03-04 22:57:40] (logger.py 164): group = None
+[2024-03-04 22:57:40] (logger.py 164): lr_schedule = cosine
+[2024-03-04 22:57:40] (logger.py 164): mixed_precision = True
+[2024-03-04 22:57:40] (logger.py 164): notes = None
+[2024-03-04 22:57:40] (logger.py 164): num_workers = 4
+[2024-03-04 22:57:40] (logger.py 164): output_dir = ./experiments/default/exp
+[2024-03-04 22:57:40] (logger.py 164): preset = imagenet_10
+[2024-03-04 22:57:40] (logger.py 164): project_name = default
+[2024-03-04 22:57:40] (logger.py 164): resume = None
+[2024-03-04 22:57:40] (logger.py 164): run_id = None
+[2024-03-04 22:57:40] (logger.py 164): run_name = exp
+[2024-03-04 22:57:40] (logger.py 164): seed = 0
+[2024-03-04 22:57:40] (logger.py 164): tags = None
+[2024-03-04 22:57:40] (logger.py 164): threshold_rate = 0.99
+[2024-03-04 22:57:40] (logger.py 164): wandb_mode = off
+[2024-03-04 22:57:40] (logger.py 164): 
+[2024-03-04 22:57:40] (logger.py 164): Loading data
+[2024-03-04 22:57:40] (logger.py 164): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-05-21 17:06:56] (logger.py 168): Initializing experiment exp
+
+[2024-05-21 17:06:56] (logger.py 168): NMI_interval = 20
+[2024-05-21 17:06:56] (logger.py 168): NMI_target = 0.8
+[2024-05-21 17:06:56] (logger.py 168): bash_command = None
+[2024-05-21 17:06:56] (logger.py 168): batch_size = 128
+[2024-05-21 17:06:56] (logger.py 168): checkpoint_path = None
+[2024-05-21 17:06:56] (logger.py 168): classes_no = 3
+[2024-05-21 17:06:56] (logger.py 168): clusterings = 3
+[2024-05-21 17:06:56] (logger.py 168): clusters = 3
+[2024-05-21 17:06:56] (logger.py 168): complex_arg = None
+[2024-05-21 17:06:56] (logger.py 168): dataset = cifar10
+[2024-05-21 17:06:56] (logger.py 168): dataset_path = /home/sdx/DCCS-master/data/
+[2024-05-21 17:06:56] (logger.py 168): divclust_mbank_size = 10000
+[2024-05-21 17:06:56] (logger.py 168): entity = default
+[2024-05-21 17:06:56] (logger.py 168): epochs = 10
+[2024-05-21 17:06:56] (logger.py 168): eval_interval = 1
+[2024-05-21 17:06:56] (logger.py 168): f = None
+[2024-05-21 17:06:56] (logger.py 168): fff = None
+[2024-05-21 17:06:56] (logger.py 168): gpu = 0
+[2024-05-21 17:06:56] (logger.py 168): gpus = None
+[2024-05-21 17:06:56] (logger.py 168): group = None
+[2024-05-21 17:06:56] (logger.py 168): lr_schedule = cosine
+[2024-05-21 17:06:56] (logger.py 168): mixed_precision = True
+[2024-05-21 17:06:56] (logger.py 168): notes = None
+[2024-05-21 17:06:56] (logger.py 168): num_workers = 4
+[2024-05-21 17:06:56] (logger.py 168): output_dir = ./experiments/default/exp
+[2024-05-21 17:06:56] (logger.py 168): preset = cc_imagenet10
+[2024-05-21 17:06:56] (logger.py 168): project_name = default
+[2024-05-21 17:06:56] (logger.py 168): resume = None
+[2024-05-21 17:06:56] (logger.py 168): run_id = None
+[2024-05-21 17:06:56] (logger.py 168): run_name = exp
+[2024-05-21 17:06:56] (logger.py 168): seed = 0
+[2024-05-21 17:06:56] (logger.py 168): tags = None
+[2024-05-21 17:06:56] (logger.py 168): threshold_rate = 0.99
+[2024-05-21 17:06:56] (logger.py 168): wandb_mode = off
+[2024-05-21 17:06:56] (logger.py 168): 
+[2024-05-21 17:06:56] (logger.py 168): Loading data
+[2024-05-21 17:06:56] (logger.py 168): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2024-05-21 17:08:02] (logger.py 168): Initializing experiment exp
+
+[2024-05-21 17:08:02] (logger.py 168): NMI_interval = 20
+[2024-05-21 17:08:02] (logger.py 168): NMI_target = 0.8
+[2024-05-21 17:08:02] (logger.py 168): bash_command = None
+[2024-05-21 17:08:02] (logger.py 168): batch_size = 128
+[2024-05-21 17:08:02] (logger.py 168): checkpoint_path = None
+[2024-05-21 17:08:02] (logger.py 168): classes_no = 3
+[2024-05-21 17:08:02] (logger.py 168): clusterings = 3
+[2024-05-21 17:08:02] (logger.py 168): clusters = 3
+[2024-05-21 17:08:02] (logger.py 168): complex_arg = None
+[2024-05-21 17:08:02] (logger.py 168): dataset = cifar10
+[2024-05-21 17:08:02] (logger.py 168): dataset_path = /home/sdx/DCCS-master/data/
+[2024-05-21 17:08:02] (logger.py 168): divclust_mbank_size = 10000
+[2024-05-21 17:08:02] (logger.py 168): entity = default
+[2024-05-21 17:08:02] (logger.py 168): epochs = 10
+[2024-05-21 17:08:02] (logger.py 168): eval_interval = 1
+[2024-05-21 17:08:02] (logger.py 168): f = None
+[2024-05-21 17:08:02] (logger.py 168): fff = None
+[2024-05-21 17:08:02] (logger.py 168): gpu = 0
+[2024-05-21 17:08:02] (logger.py 168): gpus = None
+[2024-05-21 17:08:02] (logger.py 168): group = None
+[2024-05-21 17:08:02] (logger.py 168): lr_schedule = cosine
+[2024-05-21 17:08:02] (logger.py 168): mixed_precision = True
+[2024-05-21 17:08:02] (logger.py 168): notes = None
+[2024-05-21 17:08:02] (logger.py 168): num_workers = 4
+[2024-05-21 17:08:02] (logger.py 168): output_dir = ./experiments/default/exp
+[2024-05-21 17:08:02] (logger.py 168): preset = cc_imagenet10
+[2024-05-21 17:08:02] (logger.py 168): project_name = default
+[2024-05-21 17:08:02] (logger.py 168): resume = None
+[2024-05-21 17:08:02] (logger.py 168): run_id = None
+[2024-05-21 17:08:02] (logger.py 168): run_name = exp
+[2024-05-21 17:08:02] (logger.py 168): seed = 0
+[2024-05-21 17:08:02] (logger.py 168): tags = None
+[2024-05-21 17:08:02] (logger.py 168): threshold_rate = 0.99
+[2024-05-21 17:08:02] (logger.py 168): wandb_mode = off
+[2024-05-21 17:08:02] (logger.py 168): 
+[2024-05-21 17:08:02] (logger.py 168): Loading data
+[2024-05-21 17:08:02] (logger.py 168): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 22, in main
+    dataset_train, dataset_val = build_dataset(args.clustering_framework, args.dataset, args.dataset_path, args)
+AttributeError: 'Namespace' object has no attribute 'clustering_framework'
+
+[2025-03-04 13:11:18] (logger.py 167): Initializing experiment exp
+
+[2025-03-04 13:11:18] (logger.py 167): bash_command = None
+[2025-03-04 13:11:18] (logger.py 167): complex_arg = None
+[2025-03-04 13:11:18] (logger.py 167): entity = default
+[2025-03-04 13:11:18] (logger.py 167): f = None
+[2025-03-04 13:11:18] (logger.py 167): fff = None
+[2025-03-04 13:11:18] (logger.py 167): gpus = None
+[2025-03-04 13:11:18] (logger.py 167): group = None
+[2025-03-04 13:11:18] (logger.py 167): notes = None
+[2025-03-04 13:11:18] (logger.py 167): num_workers = 2
+[2025-03-04 13:11:18] (logger.py 167): output_dir = ./experiments/default/exp
+[2025-03-04 13:11:18] (logger.py 167): preset = drug_screen
+[2025-03-04 13:11:18] (logger.py 167): project_name = default
+[2025-03-04 13:11:18] (logger.py 167): resume = None
+[2025-03-04 13:11:18] (logger.py 167): run_id = None
+[2025-03-04 13:11:18] (logger.py 167): run_name = exp
+[2025-03-04 13:11:18] (logger.py 167): tags = None
+[2025-03-04 13:11:18] (logger.py 167): wandb_mode = off
+[2025-03-04 13:11:18] (logger.py 167): 
+[2025-03-04 13:11:18] (logger.py 167): Traceback (most recent call last):
+  File "main.py", line 47, in <module>
+    main(args, logger)
+  File "main.py", line 16, in main
+    torch.cuda.set_device(args.gpu)
+AttributeError: 'Namespace' object has no attribute 'gpu'
+

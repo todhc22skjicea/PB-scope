@@ -1,0 +1,25 @@
+
+clustering_framework: cc
+project_name: PB_space
+group: PB_space
+run_name: CC
+dataset: PB_space
+dataset_path: "/home/sdx/drugdataset_final/dataset_t6/"
+output_dir: "/home/sdx/drug_model/model/T6"
+gpu: 0
+seed: 0
+mixed_precision: True
+backbone: resnet34
+proj_dim: 64
+
+optimizer: adam
+lr: 0.0001
+weight_decay: 0
+lr_schedule: cosine
+epochs: 200
+eval_interval: 1
+crop_size: 224
+batch_size: 128
+
+clusters: 15
+clusterings: 1
