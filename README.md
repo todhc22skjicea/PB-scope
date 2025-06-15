@@ -37,10 +37,11 @@ Running PBscope:
 
 To train the model for unsupervised cluster on drug screening dataset, run
 ```
- python main.py --preset drug_screen
+python main.py --preset drug_screen
 ```
 To virsualize the distribution of drug phenotype features in embedding space, run
 ```
+python test.py
 python vir.py
 ```
 To virsualize the distribution of drug phenotype features in two duplicate experiments, run
