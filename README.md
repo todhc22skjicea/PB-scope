@@ -1,9 +1,12 @@
-##PBscope: Drug Screening Based on P-body
+# PBscope: Contrastive learning of dynamic processing body formation reveals undefined mechanisms of approved compounds
+
+## Overview
+![Framework of PBscope](https://github.com/todhc22skjicea/PB-scope/blob/main/PBscope/asset/PBscope.png)
 
 This is the official implementation of paper []
 (https://).
 
-## Overview
+
 PBscope is a pipeline for AI drug screening method for P-bodies (processing bodies), which aims to identify potential drug candidates that can modulate P-body function, thereby affecting gene expression and cellular processes.
 
 As shown in the paper, PBscope revealed that the potential relationship between JAK/STAT signaling pathway and P-body phenotype, uncovering a previously unrecognized mechanism of cancer progression.
